@@ -1,0 +1,11 @@
+public int[] middleWay(int[] a, int[] b) {
+  
+  int[] newArray = new int [a.length];
+  int[] newArrat = new int [b.length];
+  
+  newArray[0] = a[1];
+  newArray[1] = b[1];
+  
+  
+  return newArray;
+}
